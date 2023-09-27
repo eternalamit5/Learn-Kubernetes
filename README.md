@@ -82,6 +82,17 @@ There are 3 kinds of service:
 
 ![Screenshot from 2023-09-27 12-29-17](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/58dd72a0-a369-4f02-bc53-ae8106f7e237)
 
+# Cluster IP
+
+![Screenshot from 2023-09-27 13-31-25](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/cc0afba4-262e-4f74-9787-02164b59f2da)
+
+
+# Load Balancer
+
+- It is mostly used with cloud service.
+- 
+![Screenshot from 2023-09-27 13-36-08](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/09091a2a-4f5b-453a-b2dd-d773c39a91fa)
+
 
 To list services:
         k get services
