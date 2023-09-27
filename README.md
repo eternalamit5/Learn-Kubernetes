@@ -1,4 +1,4 @@
-# Git repository for the "Kubernetes for Beginners"
+# Learn Kubernetes 
 
-## How to clone repository
-```git clone https://github.com/bstashchuk/k8s.git```
+## Important commands to get started
+
