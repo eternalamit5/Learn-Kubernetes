@@ -4,10 +4,12 @@
 
 1. Start minikube cluster:
 
-   minikube start --driver=virtualbox
+      minikube start --driver=virtualbox
 
-   To see the status of the minikube
+2. To see the status of the minikube
 
-   minikube status
+      minikube status
 
-3. 
+1. Bring the stack up:
+
+        sudo docker compose -f docker-compose-test2.yml --env-file conf/variables.env up --pull always
