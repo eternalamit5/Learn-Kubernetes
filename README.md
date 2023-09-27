@@ -2,6 +2,8 @@
 
 ## Important commands to get started
 
+link to start and stop minikube: https://minikube.sigs.k8s.io/docs/start/
+
 1. Start minikube cluster:
 
         minikube start --driver=virtualbox
