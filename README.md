@@ -45,7 +45,10 @@ Create deployment
         k create
 
 
-Kubernetes Service: using service we can expose specific port from deployment.
+# Kubernetes Service: 
+
+- Kubernetes Service: Using service we can expose specific ports from deployment. It is way to connect to specific pods from outside Kubernetes node i.e; from external computer
+- Service is like a virtual server. It has its own IP called as cluster IP of service.
 
 
 ![Screenshot from 2023-09-27 12-16-13](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/143b7fa9-2e54-4681-ae50-c267df71a5ce)
@@ -59,15 +62,13 @@ Kubernetes Service: using service we can expose specific port from deployment.
 
 
 
-
-
-
 There are 3 kinds of service:
 1. Node port service
 2. Cluster IP
 3. Load Balancer
 
-Node port service
+# Node port service
+
 ![Screenshot from 2023-09-27 12-21-56](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/c6240212-e221-4b70-9601-5b6fdfc6de48)
 
 
