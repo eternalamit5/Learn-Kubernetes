@@ -47,10 +47,40 @@ Create deployment
 
 Kubernetes Service: using service we can expose specific port from deployment.
 
+
+![Screenshot from 2023-09-27 12-16-13](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/143b7fa9-2e54-4681-ae50-c267df71a5ce)
+
+![Screenshot from 2023-09-27 12-18-02](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/3cbc70cf-40d8-4a77-ad40-76f9af803dff)
+
+
+![Screenshot from 2023-09-27 12-23-29](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/57e8e2db-f82a-4782-9f4e-3bc5f7f521ad)
+
+
+
+
+
+
+
+
 There are 3 kinds of service:
 1. Node port service
 2. Cluster IP
 3. Load Balancer
+
+Node port service
+![Screenshot from 2023-09-27 12-21-56](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/c6240212-e221-4b70-9601-5b6fdfc6de48)
+
+
+![Screenshot from 2023-09-27 12-24-08](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/74be2737-0060-417e-a83b-f88b8504b061)
+
+![Screenshot from 2023-09-27 12-24-23](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/6bbe3993-4318-49cc-ba6f-8f4365cb4bd5)
+
+![Screenshot from 2023-09-27 12-26-04](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/b52a69b0-c158-42f6-ad38-2bb53a9852c7)
+
+![Screenshot from 2023-09-27 12-26-18](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/1e65aec5-93e3-4015-8bd3-ebc4ce676c09)
+
+![Screenshot from 2023-09-27 12-29-17](https://github.com/eternalamit5/Learn-Kubernetes/assets/44448083/58dd72a0-a369-4f02-bc53-ae8106f7e237)
+
 
 To list services:
         k get services
