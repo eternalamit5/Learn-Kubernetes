@@ -44,7 +44,7 @@ To alias kubectl command.
 
 Create deployment
 
-        k create
+        kubectl apply -f filename.yaml
 
 
 # Kubernetes Service: 
