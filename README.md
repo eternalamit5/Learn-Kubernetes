@@ -32,7 +32,9 @@ link to start and stop minikube: https://minikube.sigs.k8s.io/docs/start/
  2. Ger node status:
         kubectl get nodes
 
-        kubectl get pods
+    To check both pod and service status:
+
+        kubectl get pods,svc
 
 To see the all the namespaces:
 
@@ -45,6 +47,10 @@ To alias kubectl command.
 Create deployment
 
         kubectl apply -f filename.yaml
+
+To get the IP address from minikube itself to see a service from browser:
+
+        minikube service your-service-name --url
 
 
 # Kubernetes Service: 
