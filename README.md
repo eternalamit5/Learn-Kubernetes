@@ -52,6 +52,13 @@ To get the IP address from minikube itself to see a service from browser:
 
         minikube service your-service-name --url
 
+To start the deployment and service:
+
+        kubectl apply -f telegraf-deployment.yaml 
+        
+To delete the deployment and services:
+
+        kubectl delete -f influxdb-deployment.yaml -f your-next-file-name
 
 # Kubernetes Service: 
 
