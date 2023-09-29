@@ -21,6 +21,11 @@ link to start and stop minikube: https://minikube.sigs.k8s.io/docs/start/
 
    after that we are inside kubernetes node.
 
+4. To stop minikube:
+
+        minikube delete
+           
+
    
 # Kubectl commands
 
